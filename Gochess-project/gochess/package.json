@@ -1,0 +1,10 @@
+{
+  "name": "gochess",
+  "version": "1.0.0",
+  "description": "Gochess: play chess online, with Fisher the coach explaining every move. Created by Daniel M Reyes.",
+  "author": "Daniel M Reyes",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "scripts": { "start": "node server/server.js" },
+  "engines": { "node": ">=18" }
+}
