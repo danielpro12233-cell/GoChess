@@ -1,0 +1,19 @@
+Stockfish in Gochess
+====================
+The files in this folder (stockfish-19*.js / stockfish-19*.wasm) are Stockfish.js 19,
+(c) 2026 Chess.com, LLC, a WebAssembly port of Stockfish by T. Romstad, M. Costalba,
+J. Kiiski, G. Linscott and the Stockfish developers. Neural-network weights by the
+Stockfish project / Chris Bao (sscg13).
+
+License: GNU General Public License v3.0 (GPL-3.0).
+Full license text: https://www.gnu.org/licenses/gpl-3.0.txt  (also shipped as Copying.txt
+in the stockfish npm package; install-stockfish copies it here when it can).
+
+Source code:
+  Stockfish.js : https://github.com/nmrugg/stockfish.js
+  Stockfish    : https://github.com/official-stockfish/Stockfish
+
+These files are unmodified and are loaded by Gochess only as a separate engine program in a
+Web Worker. Gochess's own code (Daniel M Reyes) is described in ../LICENSE.
+If you distribute Gochess together with these files, you must keep this notice and make the
+Stockfish source available as required by the GPL-3.0.
