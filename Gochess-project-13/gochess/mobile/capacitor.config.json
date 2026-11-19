@@ -1,0 +1,11 @@
+{
+  "appId": "com.gochess.app",
+  "appName": "Gochess",
+  "webDir": "../public",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#111411"
+  }
+}
